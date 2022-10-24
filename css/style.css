@@ -13,7 +13,7 @@
   background-color: #25c694;           /* Footer height */
 }
 body {
-  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+  font-family:Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
   
   overflow-x: hidden;
   
@@ -53,7 +53,6 @@ h1 {
   font-size: 4rem;
   z-index: 2;
   line-height: 1.2;
-  font-weight: 700;
   @media (max-width: 768px) {
     font-size: 2rem;
   }
@@ -88,7 +87,9 @@ h2 {
 }
 .logo{
   font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: lighter;
+  padding: 20px;
 }
 /* text colors */
 .black-text {
@@ -440,37 +441,53 @@ h2 {
   align-self: center;
 }
 
-/* color changing section */
+.typed-text{
+  margin-left: 30vw;
+  padding-top: 60px;
+  max-width: 50vw;
+}
 
+.typed-text-color-1{
+  color: #ebeef0
+}
 
-
-
+.typed-text-color-2{
+  color: #fff;
+}
 
 .abstract {
   color: #ffffff;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 30vw;
+  margin-right: 30vw;
   margin-top:60px;
-  padding: 30px;
-  font-weight: 100;
+  padding-top: 30px;
+  font-weight: 50;
   font-size: 30px;
   text-align: left;
   font: Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
-  
+  line-height: 50px;
 }
 
+.section-projects{
+  padding: 200px;
+  padding-bottom: 150px;
+  color:rgb(255, 255, 255);
+  font-weight: lighter;
+}
 
 /*      about page        */
 .about-p{
+  
   padding-top: 350px;
-  margin-left: 10vw;
-  max-width: 80vw;
+  margin-left: 20vw;
+  max-width: 60vw;
   line-height: 1.5;
   text-align: center;
   color: #fff;
   font-family: Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
-  font-weight: 200;
+  font-weight: lighter;
   font-size: 30px;
+  
 }
 
 /* hr */
@@ -514,6 +531,22 @@ hr:after {
   margin: 5vw;
 
 }
+/*  Thank you  */
+
+.thank-you {
+  color: #ffffff;
+  margin-left: 15vw;
+  margin-right: 20vw;
+  margin-top:80px;
+  padding-top: 30px;
+  font-weight: 50;
+  font-size: 30px;
+  text-align: left;
+  font: Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+  line-height: 50px;
+}
+
+
 /*         footer          */
 .row-footer {
   display: -webkit-box;
