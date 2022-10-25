@@ -478,7 +478,7 @@ h2 {
 /*      about page        */
 .about-p{
   
-  padding-top: 350px;
+  padding-top: 250px;
   margin-left: 20vw;
   max-width: 60vw;
   line-height: 1.5;
@@ -523,6 +523,10 @@ h2 {
     position: relative; }
 
 
+
+.center {
+  text-align: center;
+  }
 /* hr */
 hr {
   margin: 1.5em 0;
@@ -569,7 +573,7 @@ hr:after {
 .thank-you {
   color: #ffffff;
   margin-left: 15vw;
-  margin-right: 20vw;
+  margin-right: 15vw;
   margin-top:80px;
   padding-top: 30px;
   font-weight: 50;
