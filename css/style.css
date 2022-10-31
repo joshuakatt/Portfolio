@@ -12,8 +12,9 @@
   height: 2.5rem; 
   background-color: #25c694;           /* Footer height */
 }
+
 body {
-  font-family: Palatino;
+  font-family: Poppins;
   
   overflow-x: hidden;
   
@@ -483,7 +484,6 @@ h2 {
   line-height: 1.5;
   text-align: center;
   color: #fff;
-  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   font-weight: lighter;
   font-size: 30px;
   
