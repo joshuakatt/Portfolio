@@ -441,6 +441,11 @@ h2 {
   align-self: center;
 }
 
+.carousel-caption  p{
+  color: #c037ff !important;
+}
+
+
 .typed-text{
   margin-left: 30vw;
   padding-top: 60px;
@@ -580,6 +585,17 @@ hr:after {
   text-align: left;
   font: Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
   line-height: 50px;
+}
+
+.project-container {
+  margin-top: 350px;
+  margin: 150px;
+  padding: 10px;
+}
+
+.project-1 {
+  color: white;
+  font-weight: 200;
 }
 
 
