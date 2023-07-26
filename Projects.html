@@ -105,121 +105,214 @@
       </div>
     </div>
   </div>
-
   <!-- Projects Section -->
-  <div class="container-fluid">
-    <!-- Rubik's Cube Project -->
-    <div class="row project-main">
-      <div class="col-sm-3 col-md-6">
-        <img src="" alt="Rubik's Project">
+<div class="container-fluid">
+  <!-- Rubik's Cube Project -->
+  <div class="row project-main">
+    <div class="col-sm-3 col-md-6">
+      <img src="" alt="Rubik's Project">
+    </div>
+    <div class="col-sm-9 col-md-6">
+
+    </div>
+  </div>
+  <hr>
+
+  <!-- Project 1: Rubik's Cube Visualizer -->
+  <div class="project-container" >
+    <!-- Image and Description (Rubik's Cube) -->
+    <div class="row" id="rubiks">
+      <div class="col-md-6">
+        <img src="images/rubiks-0.png" alt="" class="w-100" />
       </div>
-      <div class="col-sm-9 col-md-6">
-        
+    <div class="col-md-6">
+        <div class="row align-items-center h-100">
+          <div class="col text-white">
+            <h1 class="display-3">Rubiks Cube Visualizer</h1>
+            <p class="lead">
+              <span style="color:#ee00db;">Interactive 3D model of Rubiks cube using Python and Matplotlib</span>
+              <br /><br />
+              <a href="https://github.com/joshuakatt/Rubiks_Cube_3D_Visualizer_Solver" class="">Github</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <hr>
+    <!-- Description (Rubik's Cube) -->
+    <div class="project-1">
+      <p>
+        As a child, I always found Rubik's Cubes intriguing. The seemingly infinite faces a cube could have, the directions in which it could be twisted, and of course, the ways in which one could solve the cube.
+        <br><br>
+        I developed this 3D visualization program using Python and Matplotlib (which I happened to use in one of my courses). You can move the cube around in 3D, rotate faces of the cube and undo your steps. Eventually, I plan to make this a software to teach people how to solve a cube. I plan to implement this by guiding the user in the right steps and warning the user when wrong steps are being made.
+        <br><br>
+        You can find the code to this Project here: <a href="https://github.com/joshuakatt/Rubiks_Cube_3D_Visualizer_Solver">Github</a>
+        <br><br>
+        I also made a version of it with a Pyraminx (tetrahedron-shaped puzzle with four triangular faces), let me know if you're interested in seeing this!
+      </p>
+    </div>
+  
+  <br><br><br><br><br><br>
 
-    <div class="project-container" id="rubiks">
-      <!-- Image and Description (Rubik's Cube) -->
-      <div class="row">
-        <div class="col-md-6">
-          <img src="images/rubiks-0.png" alt="" class="w-100" />
+  <!-- Project 2: Amazon Clone -->
+  <div class="row">
+    <div class="col-md-6 order-md-6" id="clone">
+      <img src="images/amz-cln.png" alt="" class="w-100" />
+    </div>
+    <div class="col-md-6 order-md-1">
+      <div class="row align-items-end h-100">
+        <div class="col text-white">
+          <h1 class="display-3">Amazon Clone</h1>
+          <p class="lead">
+            <span style="color:#ee00db;">Replica of Amazon Website with User Authentication/Payment processing</span>
+            <br /><br />
+            <a href="https://vendo-290e5.web.app/" class="">Visit Website</a>
+          </p>
         </div>
-        <div class="col-md-6">
-          <div class="row align-items-center h-100">
-            <div class="col text-white">
-              <h1 class="display-3">Rubiks Cube Visualizer</h1>
-              <p class="lead">
-                <span style="color:#ee00db;">Interactive 3D model of Rubiks cube using Python and Matplotlib</span>
-                <br /><br />
-                <a href="https://github.com/joshuakatt/Rubiks_Cube_3D_Visualizer_Solver" class="">Github</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Description (Rubik's Cube) -->
-      <div class="project-1">
-        <p>
-          <br>
-          <br>
-          <br>
-          As a child, I always found Rubik's Cubes intriguing. The seemingly infinite faces a cube could have, the directions in which it could be twisted, and of course, the ways in which one could solve the cube.
-          <br><br>
-          I developed this 3D visualization program using Python and Matplotlib (which I happened to use in one of my courses). You can move the cube around in 3D, rotate faces of the cube and undo your steps. Eventually, I plan to make this a software to teach people how to solve a cube. I plan to implement this by guiding the user in the right steps and warning the user when wrong steps are being made.
-          <br><br>
-          You can find the code to this Project here: <a href="https://github.com/joshuakatt/Rubiks_Cube_3D_Visualizer_Solver">Github</a>
-          <br>
-          <br>
-          I also made a version of it with a Pyraminx (tetrahedron-shaped puzzle with four triangular faces), let me know if you're interested in seeing this!
-          <br>
-        </p>
-      </div>
-      <br><br><br><br><br><br>
-
-      <!-- Amazon Clone Project -->
-      <div class="row">
-        <div class="col-md-6 order-md-6" id="clone">
-          <img src="images/amz-cln.png" alt="" class="w-100" />
-        </div>
-        <div class="col-md-6 order-md-1">
-          <div class="row align-items-end h-100">
-            <div class="col text-white">
-              <h1 class="display-3">Amazon Clone</h1>
-              <p class="lead">
-                <span style="color:#ee00db;">Replica of Amazon Website with User Authentication/Payment processing</span>
-                <br /><br />
-                <a href="https://vendo-290e5.web.app/" class="">Visit Website</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Description (Amazon Clone) -->
-      <div class="project-1">
-        <br><br><br>
-        <p>
-          A Responsive, fully functional clone of Amazon, the e-commerce giant. Built using redux/react with Node JS and supports User Authentication payment processing using Stripe.
-          <br><br>
-          Uses a NoSQL real-time database to store user information.
-        </p>
-      </div>
-
-      <br><br><br><br><br><br>
-
-      <!-- Project Vendo -->
-      <div class="row">
-        <div class="col-md-6">
-          <img src="images/vendo-0.png" alt="" class="w-100" />
-        </div>
-        <div class="col-md-6">
-          <div class="row align-items-center h-100">
-            <div class="col text-white">
-              <h1 class="display-3">Project Vendo</h1>
-              <p class="lead">
-                <span style="color:#ee00db;">Social Media Managing Platform (In early development)</span>
-                <br /><br />
-                <a href="Projects.html" class="">Learn More</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Description (Project Vendo) -->
-      <div class="project-1">
-        <br>
-        <p>
-          My grandfather, mother, and I used to conduct music lessons for children in our neighborhood, and we always found managing advertising and social media extremely complex and time-consuming.
-          <br><br>
-          I thought that there should be a coordinated, easy, and time-saving solution to manage digital engagements for small businesses, but for all the platforms we tried, we could never find a cheap solution that catered to a small business like ours.
-          <br><br>
-          I'm currently in the initial stages of development where I'm figuring out how the <a href="https://developers.facebook.com/docs/graph-api/reference/">Meta/Facebook Graph API</a> and my backend will connect to allow users to log in and connect social media accounts.
-          <br><br>
-          I plan to allow users to connect their social media accounts (Facebook, Instagram) and schedule when their posts go out. More importantly, I wish to provide the user with insights on which type of posts are doing best, and how to reach a wider audience using analytics. I plan to implement this by guiding the user in the right steps and warning the user when wrong steps are being made.
-        </p>
       </div>
     </div>
   </div>
+  <!-- Description (Amazon Clone) -->
+  <div class="project-1">
+    <p>
+      A Responsive, fully functional clone of Amazon, the e-commerce giant. Built using redux/react with Node JS and supports User Authentication payment processing using Stripe.
+      <br><br>
+      Uses a NoSQL real-time database to store user information.
+    </p>
+  </div>
+  <br><br><br><br><br><br>
+
+  <!-- Project 3: CrazyRydes Site -->
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/crazyrydes.png" alt="" class="w-100" />
+    </div>
+    <div class="col-md-6">
+      <div class="row align-items-center h-100">
+        <div class="col text-white">
+          <h1 class="display-3">CrazyRydes Site</h1>
+          <p class="lead">
+            <span style="color:#ee00db;">Serverless web application using AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Cognito, and AWS Amplify Console.</span>
+            <br /><br />
+            <a href="https://main.d2q18ar67ok6wr.amplifyapp.com/" class="">Visit Website</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Description (CrazyRydes Site) -->
+  <div class="project-1">
+    <p>
+      CrazyRydes Site is a serverless web application built using various AWS services including AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito. It provides a scalable and secure solution for building web applications without the need to manage servers.
+      <br><br>
+      This project demonstrates the power and flexibility of serverless architecture in modern web development. The backend is built using AWS Lambda and Amazon API Gateway, enabling automatic scaling and reduced operational overhead. User authentication is implemented using Amazon Cognito, ensuring a secure and scalable way to manage user sign-up, sign-in, and access control. Data storage and retrieval are handled by Amazon DynamoDB, a fast and flexible NoSQL database service.
+      <br><br>
+      AWS Amplify is used for frontend development, providing tools and services to streamline the development process, including hosting and deployment.
+      <br><br>
+      You can check out the latest deployment of the CrazyRydes Site by visiting: <a href="https://www.example.com/crazyrydes">here</a>.
+    </p>
+  </div>
+  <br><br><br><br><br><br>
+
+  <!-- Project 4: Markdown Blog -->
+  <div class="row">
+    <div class="col-md-6 order-md-6">
+      <img src="images/blog.png" alt="" class="w-100" />
+    </div>
+    <div class="col-md-6 order-md-1">
+      <div class="row align-items-center h-100">
+        <div class="col text-white">
+          <h1 class="display-3">Markdown Blog</h1>
+          <p class="lead">
+            <span style="color:#ee00db;">A feature-rich and user-friendly blogging platform developed using EJS, JavaScript, MongoDB, Node.js, and Express.</span>
+            <br /><br />
+            <a href="https://www.example.com/markdown-blog" class="">Visit Website</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Description (Markdown Blog) -->
+  <div class="project-1">
+    <p>
+      The "Markdown Blog" is a feature-rich and user-friendly blogging platform that enables users to create, publish, and manage their blog posts effortlessly. Developed using EJS, JavaScript, MongoDB, Node.js, and Express, this dynamic blog leverages the simplicity of Markdown for content creation, allowing writers to focus on expressing their thoughts without worrying about complex formatting.
+      <br><br>
+      The platform offers a seamless writing and publishing experience, with essential features such as post management, tags, and user authentication. Markdown is utilized for content creation, making it easy for writers to format their posts without distractions. The blog's backend is powered by MongoDB and Node.js, ensuring fast and reliable performance. Express.js handles the routing and middleware, providing a robust foundation for the application.
+      <br><br>
+      You can check out the "Markdown Blog" and start writing your thoughts by visiting: <a href="https://www.example.com/markdown-blog">here</a>.
+    </p>
+  </div>
+  <hr>
+  <br><br><br><br><br><br>
+
+  <!-- Project 5: Uber-Clone -->
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/uber-clone.png" alt="" class="w-100" />
+    </div>
+    <div class="col-md-6">
+      <div class="row align-items-center h-100">
+        <div class="col text-white">
+          <h1 class="display-3">Ride Booking App</h1>
+          <p class="lead">
+            <span style="color:#ee00db;">A powerful React Native application for seamless ride booking, inspired by leading ride-hailing services and leveraging Google's Directions API, Locations API, and other essential Google APIs.</span>
+            <br /><br />
+            <a href="https://www.example.com/uber-clone" class="">Visit Website</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Description (Uber-Clone) -->
+  <div class="project-1">
+    <p>
+      The "Ride Booking App" is a powerful React Native application that offers a seamless ride booking experience, inspired by leading ride-hailing services. The app is designed to streamline transportation and provide users with an efficient and user-friendly interface for booking rides in real-time.
+      <br><br>
+      The app leverages Google's Directions API to provide optimized routes, ensuring efficient and time-saving trips for riders. The Google Locations API accurately tracks users' locations, enabling seamless real-time navigation. The interactive map interface allows users to visualize available drivers, nearby locations, and ongoing trips. Real-time driver tracking enhances transparency, allowing users to monitor their drivers throughout the journey.
+      <br><br>
+      Other key features include access to ride history for past trips and relevant details, fare estimation functionality for trip cost estimation before booking, and a highly customizable interface that allows for branding and additional custom features.
+      <br><br>
+      Experience the convenience and efficiency of the "Ride Booking App" by visiting: <a href="https://www.example.com/uber-clone">here</a>.
+    </p>
+  </div>
+  <br><br><br><br><br><br>
+
+  <!-- Project 6: Project Vendo -->
+  <div class="row">
+    <div class="col-md-6 order-md-6">
+      <img src="images/vendo-0.png" alt="" class="w-100" />
+    </div>
+    <div class="col-md-6 order-md-1">
+      <div class="row align-items-center h-100">
+        <div class="col text-white">
+          <h1 class="display-3">Project Vendo</h1>
+          <p class="lead">
+            <span style="color:#ee00db;">Social Media Managing Platform (In early development)</span>
+            <br /><br />
+            <a href="Projects.html" class="">Learn More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Description (Project Vendo) -->
+  <div class="project-1">
+    <p>
+      My grandfather, mother, and I used to conduct music lessons for children in our neighborhood, and we always found managing advertising and social media extremely complex and time-consuming.
+      <br><br>
+      I thought that there should be a coordinated, easy, and time-saving solution to manage digital engagements for small businesses, but for all the platforms we tried, we could never find a cheap solution that catered to a small business like ours.
+      <br><br>
+      I'm currently in the initial stages of development where I'm figuring out how the <a href="https://developers.facebook.com/docs/graph-api/reference/">Meta/Facebook Graph API</a> and my backend will connect to allow users to log in and connect social media accounts.
+      <br><br>
+      I plan to allow users to connect their social media accounts (Facebook, Instagram) and schedule when their posts go out. More importantly, I wish to provide the user with insights on which type of posts are doing best, and how to reach a wider audience using analytics. I plan to implement this by guiding the user in the right steps and warning the user when wrong steps are being made.
+    </p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>

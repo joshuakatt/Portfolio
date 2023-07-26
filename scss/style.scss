@@ -264,6 +264,14 @@ a {
 	}
 }
 
+.project-div {
+    transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+  }
+
+  .project-div:hover {
+    box-shadow: 0 0 10px rgba(240, 165, 0, 0.5); /* Add a subtle highlight effect on hover */
+  }
+
 
 // mobile menu
 
